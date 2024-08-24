@@ -22,8 +22,5 @@ Color Harmony Explorer is an interactive React component built using Claude Sonn
 - Responsive design for various screen sizes
 
 ## Preview
-[Insert appropriate license information here]
+[Pomodoro timer in action] (https://claude.site/artifacts/95dfcb07-1666-48fa-949b-a99a997457e0)
 
----
-
-Unlock the power of color harmony with the Color Harmony Explorer – your go-to tool for creating stunning color combinations!
