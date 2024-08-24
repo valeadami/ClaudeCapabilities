@@ -22,5 +22,5 @@ Color Harmony Picker is an interactive React component built using Claude Sonnet
 - Responsive design for various screen sizes
 
 ## Preview
-[Color harmony picker in action](https://claude.site/artifacts/0db5ccc9-c52b-4116-99e3-7198fc249fad color picker)
+[Color harmony picker in action](https://claude.site/artifacts/0db5ccc9-c52b-4116-99e3-7198fc249fad)
 
