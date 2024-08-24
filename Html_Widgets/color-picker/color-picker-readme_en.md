@@ -1,7 +1,7 @@
-# Color Harmony Picker
+# Color Harmony Explorer
 
 ## Overview
-Color Harmony Picker is an interactive React component built using Claude Sonnet 3.5 that allows users to explore color harmonies. It's a powerful tool for designers, artists, and anyone interested in color theory.
+Color Harmony Explorer is an interactive React component built using Claude Sonnet 3.5 that allows users to explore color harmonies. It's a powerful tool for designers, artists, and anyone interested in color theory.
 
 ## Features
 - **Interactive Color Picker**: Choose your base color with an easy-to-use, large color input.
@@ -22,5 +22,5 @@ Color Harmony Picker is an interactive React component built using Claude Sonnet
 - Responsive design for various screen sizes
 
 ## Preview
-[Color harmony picker in action](https://claude.site/artifacts/0db5ccc9-c52b-4116-99e3-7198fc249fad)
+[Color harmony explorer in action](https://claude.site/artifacts/0db5ccc9-c52b-4116-99e3-7198fc249fad)
 
