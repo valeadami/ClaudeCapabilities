@@ -29,17 +29,7 @@ We have created an interactive Pomodoro timer using React. The component include
    - Tomato icon with pulsing effect during work sessions.
    - Coffee cup icon with bouncing effect during breaks.
 
-7. **State Management**:
-   - Use of React hooks to manage timer state and settings.
-
-8. **Customization**:
-   - Creation of a custom tomato-shaped SVG icon.
-
-9. **Accessibility**:
-   - Use of accessible and semantic components.
-   - Inline SVG icons for better accessibility and scalability.
-
-10. **Technologies Used**:
+7. **Technologies Used**:
     - React for building the user interface.
     - Tailwind CSS for styling.
     - Lucide React for icons.
@@ -49,28 +39,6 @@ We have created an interactive Pomodoro timer using React. The component include
 
 This Pomodoro timer is designed to be functional, aesthetically pleasing, and easy to use, offering an engaging user experience for time management and productivity. It helps users implement the Pomodoro Technique, a time management method that uses a timer to break work into intervals, traditionally 25 minutes in length, separated by short breaks.
 
-## Installation
+## Preview
 
-```bash
-npm install
-# or
-yarn install
-```
-
-## Usage
-
-```bash
-npm start
-# or
-yarn start
-```
-
-Then open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+[Pomodoro timer in action](https://choosealicense.com/licenses/mit/](https://claude.site/artifacts/95dfcb07-1666-48fa-949b-a99a997457e0)
