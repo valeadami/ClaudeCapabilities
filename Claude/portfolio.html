@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentina Adami - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Valentina Adami</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">Chi Sono</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#services">Servizi</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contatti</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container text-center">
+                <h1 class="display-4">Il Mio Portfolio</h1>
+                <p class="lead">Scopri alcuni dei progetti più significativi su cui ho lavorato</p>
+            </div>
+        </section>
+
+        <section class="portfolio py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Brand Quiz</h5>
+                                <p class="card-text">Un'azione Google interattiva per il mercato italiano, progettata per testare la conoscenza dei brand attraverso un quiz divertente. Riconosciuta con una Special Star per l'Interaction Design ai MediaStar awards di Milano nel 2022.</p>
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#brandQuizModal">Scopri di più</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Customer Care Chatbot</h5>
+                                <p class="card-text">Un chatbot progettato per un'azienda di e-commerce per migliorare l'assistenza clienti automatizzando le risposte alle domande frequenti e integrandosi con il sistema CRM dell'azienda.</p>
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#customerCareModal">Scopri di più</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">FAQ Chatbot per Grande Distribuzione</h5>
+                                <p class="card-text">Sviluppato un chatbot per il supporto clienti di un'azienda di grande distribuzione, con l'obiettivo di ridurre le chiamate al servizio clienti. Il chatbot è diventato il principale canale di supporto su mobile.</p>
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#faqChatbotModal">Scopri di più</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Università Accessibile</h5>
+                                <p class="card-text">Un assistente virtuale creato in collaborazione con l'Università di Trieste per assistere gli studenti con disabilità, fornendo informazioni accessibili e supporto attraverso comandi vocali.</p>
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#uniAccessibileModal">Scopri di più</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Artificial Bot Trainer</h5>
+                                <p class="card-text">Un'applicazione generativa alimentata da GPT-4 progettata per assistere i trainer di AI. Parte di un progetto più ampio che include automazione, chatbot, applicazioni voice-first e umani digitali.</p>
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#botTrainerModal">Scopri di più</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modals -->
+    <div class="modal fade" id="brandQuizModal" tabindex="-1" aria-labelledby="brandQuizModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="brandQuizModalLabel">Brand Quiz</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Overview</h6>
+                    <p>Il "Brand Quiz" è un'azione Google interattiva sviluppata per il mercato italiano, progettata per testare la conoscenza dei brand degli utenti attraverso un quiz divertente e coinvolgente.</p>
+                    <h6>Caratteristiche principali</h6>
+                    <ul>
+                        <li>Formato a tre domande focalizzato su marketing e branding.</li>
+                        <li>Sviluppato per la piattaforma Google Assistant.</li>
+                        <li>Riconosciuto con una Special Star per l'Interaction Design ai MediaStar awards di Milano nel 2022.</li>
+                    </ul>
+                    <h6>Scopo</h6>
+                    <p>Educare e coinvolgere gli utenti nella conoscenza del marketing e dei brand attraverso un'esperienza interattiva.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="customerCareModal" tabindex="-1" aria-labelledby="customerCareModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="customerCareModalLabel">Customer Care Chatbot</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Overview</h6>
+                    <p>Un chatbot progettato per un'azienda di e-commerce per migliorare l'assistenza clienti automatizzando le risposte alle domande frequenti e integrandosi con il sistema CRM dell'azienda.</p>
+                    <h6>Caratteristiche principali</h6>
+                    <ul>
+                        <li>Risposte automatizzate alle FAQ.</li>
+                        <li>Integrazione CRM per interazioni personalizzate con i clienti.</li>
+                        <li>Disponibilità 24/7.</li>
+                    </ul>
+                    <h6>Risultati</h6>
+                    <ul>
+                        <li>Tempi di risposta ridotti.</li>
+                        <li>Maggiore soddisfazione del cliente.</li>
+                        <li>Gestione efficiente delle richieste dei clienti.</li>
+                    </ul>
+                    <h6>Lezioni apprese</h6>
+                    <ul>
+                        <li>Importanza del NLP nella comprensione delle esigenze dei clienti.</li>
+                        <li>Miglioramenti continui basati sul feedback degli utenti.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="faqChatbotModal" tabindex="-1" aria-labelledby="faqChatbotModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="faqChatbotModalLabel">FAQ Chatbot per Grande Distribuzione</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Situazione</h6>
+                    <p>Il cliente, un'azienda di grande distribuzione, necessitava di un chatbot per il supporto clienti.</p>
+                    <h6>Compito</h6>
+                    <p>L'obiettivo era ridurre le chiamate al supporto clienti.</p>
+                    <h6>Azione</h6>
+                    <p>Sviluppata una knowledge base, collaborato al design, alla strategia dei contenuti e testato ampiamente il chatbot.</p>
+                    <h6>Risultati</h6>
+                    <p>Il chatbot è stato implementato con successo, diventando il principale canale di supporto su mobile.</p>
+                    <h6>Lezioni apprese</h6>
+                    <p>Acquisite preziose intuizioni nella guida all'implementazione dell'AI Conversazionale e nell'affrontare le esigenze dei clienti.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="uniAccessibileModal" tabindex="-1" aria-labelledby="uniAccessibileModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="uniAccessibileModalLabel">Università Accessibile</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Overview</h6>
+                    <p>Un assistente virtuale creato in collaborazione con l'Università di Trieste per assistere gli studenti con disabilità. Fornisce informazioni accessibili e supporto attraverso comandi vocali, migliorando l'inclusività dell'ambiente accademico.</p>
+                    <h6>Caratteristiche</h6>
+                    <ul>
+                        <li>Accessibilità tramite comandi vocali.</li>
+                        <li>Supporto e informazioni personalizzate.</li>
+                        <li>Sviluppato utilizzando Google Actions per una comunicazione efficace.</li>
+                    </ul>
+                    <h6>Impatto</h6>
+                    <p>Il progetto mira a migliorare l'accessibilità delle risorse universitarie, rendendo l'istruzione più inclusiva.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="botTrainerModal" tabindex="-1" aria-labelledby="botTrainerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="botTrainerModalLabel">Artificial Bot Trainer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Overview</h6>
+                    <p>L'Artificial Bot Trainer è un'applicazione generativa alimentata da GPT-4 progettata per assistere i trainer di AI. Fa parte di un portfolio più ampio che include:</p>
+                    <ul>
+                        <li><strong>Automazione:</strong> Applicazione web per la creazione di agenti Dialogflow e gestione dei contenuti.</li>
+                        <li><strong>Chatbot & AI Training:</strong> Chatbot FAQ e Chatbot E-commerce per supporto clienti.</li>
+                        <li><strong>Applicazioni voice-first:</strong> Brand Quiz, Cubo di Sole, Università accessibile.</li>
+                        <li><strong>Umani Digitali:</strong> Concierge Virtuale e Recruiter Digitale.</li>
+                    </ul>
+                    <p>Questo progetto dimostra la versatilità e l'ampiezza delle competenze nel campo dell'AI e delle tecnologie conversazionali.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 Valentina Adami. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
