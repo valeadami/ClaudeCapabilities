@@ -41,4 +41,4 @@ This Pomodoro timer is designed to be functional, aesthetically pleasing, and ea
 
 ## Preview
 
-[Pomodoro timer in action](https://choosealicense.com/licenses/mit/](https://claude.site/artifacts/95dfcb07-1666-48fa-949b-a99a997457e0)
+[Pomodoro timer in action](https://claude.site/artifacts/95dfcb07-1666-48fa-949b-a99a997457e0)
