@@ -21,7 +21,7 @@ Color Harmony Explorer is an interactive React component built using Claude Sonn
 - Incorporates icons from lucide-react
 - Responsive design for various screen sizes
 
-## License
+## Preview
 [Insert appropriate license information here]
 
 ---
