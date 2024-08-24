@@ -84,10 +84,6 @@ To create your own portfolio website using this method:
 5. Deploy your finished website to your chosen hosting service.
 
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
 ## 🙏 Acknowledgments
 
 - Anthropic for creating Claude AI
