@@ -87,6 +87,17 @@ To create your own portfolio website using this method:
 ## 🙏 Acknowledgments
 
 - Anthropic for creating Claude AI
+  
+## 🔗 LinkedIn Saved Items Summarizer
+
+### Overview
+The `linkedin_saved_items_summarizer` is an automation tool that exemplifies the transformation from unstructured textual data to structured data ready for further processing. This module demonstrates how to extract meaningful, organized insights from the LinkedIn saved items file, setting the stage for advanced analysis and decision-making.
+
+### Key Features
+- Reads URLs from a CSV file containing LinkedIn saved items
+- Performs web scraping to extract content from these URLs
+- Utilizes a language model to generate concise summaries of the scraped content
+
 
 ## 📬 Contact
 
