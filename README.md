@@ -87,6 +87,7 @@ To create your own portfolio website using this method:
 ## 🙏 Acknowledgments
 
 - Anthropic for creating Claude AI
+
   
 ## 🔗 LinkedIn Saved Items Summarizer
 
