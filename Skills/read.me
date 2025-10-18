@@ -1,0 +1,55 @@
+# Canva Project Launcher - Claude Skill
+
+A custom Claude Skill that automates project folder structure creation in Canva and Notion with a single command.
+
+## What it does
+
+This skill enables Claude to automatically create standardized project folder structures in Canva and Notion when you type a simple command like:
+
+```
+start project ClientName_2025-10-18
+```
+
+Claude will parse the project name and date, then create the complete folder hierarchy in your Canva or Notion account.
+
+
+## How it works
+
+This is a Claude Agent Skill - a reusable workflow that's always available across all your Claude conversations. Simply mention the command, and Claude handles the rest using the Canva API integration.
+
+## Installation
+
+1. Download the `SKILL.md` file from this repository
+2. Upload it to Claude.ai (Settings → Skills) or use it in Claude Code
+3. That's it! The skill is now available in all your conversations
+
+## Requirements
+
+- Claude Pro, Team, or Enterprise account
+- Canva and Notion account connected to Claude
+
+## Usage
+
+Just type in any Claude conversation:
+```
+start project [ProjectName]_[YYYY-MM-DD]
+```
+
+Claude will automatically:
+- Validate the date format
+- Create the root project folder
+- Set up the standardized subfolder structure
+- Confirm completion with folder links
+
+## Learn More
+
+- [Claude Agent Skills Documentation](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview)
+- [Anthropic Engineering Blog: Equipping agents for the real world](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)
+
+## License
+
+MIT License - feel free to adapt this skill for your own workflows!
+
+
+**Built with:** Claude Agent Skills  
+
